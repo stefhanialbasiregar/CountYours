@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
+    <title>Count Yours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -78,7 +78,7 @@
             <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
             <div class="container">
                 <div class="breadcrumb_content text-center">
-                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Welcome To<br>Tax Generator</h1>
+                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Welcome To<br>Count Yours</h1>
                 </div>
             </div>
         </section>
