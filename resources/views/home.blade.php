@@ -158,7 +158,7 @@
                             <div class="f_widget company_widget">
                                 <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
                                 <p class="mt_40">Count Yours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
-                                <h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6>
+                                <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
                                 </p>
                             </div>
                         </div>
