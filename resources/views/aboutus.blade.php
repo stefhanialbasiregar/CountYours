@@ -126,7 +126,7 @@
                                 <a href="#">
                                     <h3 class="f_p f_size_16 f_600 t_color3">Stefhani Alba Siregar</h3>
                                 </a>
-                                <h5>Backend Developer</h5>
+                                <h5>2008107010057</h5>
                             </div>
                             <div class="hover_content">
                                 <div class="n_hover_content">
@@ -140,7 +140,7 @@
                                     <a href="#">
                                         <h3 class="f_p f_size_16 f_600 w_color">Stefhani Alba Siregar</h3>
                                     </a>
-                                    <h5>Backend Developer</h5>
+                                    <h5>2008107010057</h5>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                                 <a href="#">
                                     <h3 class="f_p f_size_16 f_600 t_color3">Farrah Fahira Murzani</h3>
                                 </a>
-                                <h5>Database Management</h5>
+                                <h5>2008107010062</h5>
                             </div>
                             <div class="hover_content">
                                 <div class="n_hover_content">
@@ -166,7 +166,7 @@
                                     <a href="#">
                                         <h3 class="f_p f_size_16 f_600 w_color">Farrah Fahira Murzani</h3>
                                     </a>
-                                    <h5>Database Management</h5>
+                                    <h5>2008107010062</h5>
                                 </div>
                             </div>
                         </div>
