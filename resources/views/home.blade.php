@@ -60,7 +60,7 @@
                             </li>
                             <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hi! {{ Auth::user()->name }}
+                                Hi!
                                 </a>
                             </li>
                             </li>
