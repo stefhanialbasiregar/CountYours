@@ -177,7 +177,7 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Stefhani Jong</a></li>
+                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                     <li><a href="#">Farrah Fahira Murzani</a></li>
                                 </ul>
                             </div>
