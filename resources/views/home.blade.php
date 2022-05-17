@@ -8,10 +8,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
+    <title>Count Yours</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <!--icon font css-->
     <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
     <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
@@ -60,7 +60,7 @@
                             </li>
                             <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hi!
+                                Hi! {{ Auth::user()->name }}
                                 </a>
                             </li>
                             </li>
