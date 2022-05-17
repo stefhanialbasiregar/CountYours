@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
+    <title>Count Yours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -64,7 +64,7 @@
         <section class="payment_banner_area_two">
             <div class="container">
                 <div class="payment_content_two text-center">
-                    <h2>The next generation <br>of <span>Tax Generator</span></h2>
+                    <h2>The next generation <br>of <span>Count Yours</span></h2>
                     <div class="action_btn d-flex align-items-center justify-content-center">
                         <a href="/register" class="slider_btn btn_hover"><i class="ti-plus"></i>Join Us</a>
                         <a href="/register" class="video_btn">Silahkan Daftar & Login<br>untuk menggunakan tools Gratis dari kami</a>
@@ -92,7 +92,7 @@
         <section class="payment_features_two sec_pad">
             <div class="container">
                 <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">TAX GENERATOR</h2>
+                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">COUNT YOURS</h2>
                     <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
                     <img src="img/ch3.png">
                 </div>
@@ -100,7 +100,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="payment_features_item text-center">
                             <img src="img/new/icon8.png" alt="">
-                            <h4>Tax Generator</h4>
+                            <h4>Count Yours</h4>
                             <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-center">
                         <div class="payment_features_content_two">
-                            <h2 class="t_color">Tax Generator</h2>
+                            <h2 class="t_color">Count Yours</h2>
                             <p>Pengguna dapat menentukan besaran pajak yang harus ia bayarkan. Dalam laman aplikasi, pengguna memilih beberapa pilihan sebelum memasukan data yang mana sesuai dengan kondisi pengguna. Data yang diminta berupa data finansial pribadi yang tak akan digunakan untuk keperluan lain. Data akan diproses dengan perhitungan yang transparan dan akan menampilkan hasil berupa estimasi dana pajak yang harus ia bayarkan.</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
@@ -188,7 +188,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
                                 <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6></p>
+                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 CountYours.com</h6></p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
@@ -205,10 +205,8 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Faris Izzatur Rahman</a></li>
-                                    <li><a href="#">Hafad Furqani</a></li>
-                                    <li><a href="#">M. Rizki Riswandi</a></li>
-                                    <li><a href="#">Rico Halim</a></li>
+                                    <li><a href="#">Farrah Fahira Murzani</a></li>
+                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                 </ul>
                             </div>
                         </div>
