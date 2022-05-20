@@ -373,7 +373,7 @@
             </div>
         </div>
         <!-- Berlangganan End -->
-        
+
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
             <div class="container py-5">
@@ -432,7 +432,7 @@
                                 <a href="">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="">FQs</a>
                             </div>
                         </div>
                     </div>
