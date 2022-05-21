@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="ex_team_item">
-                            <img src="img/farrag.png" alt="">
+                            <img src="img/farrah.png" alt="">
                             <div class="team_content">
                                 <a href="#">
                                     <h3 class="f_p f_size_16 f_600 t_color3">Farrah Fahira Murzani</h3>
