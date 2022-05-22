@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// route blog
+Route::get('/aboutus', 'BlogController@aboutus');
+Route::get('/disclaimer', 'BlogController@disclaimer');
+Route::get('/privacy', 'BlogController@privacy');
+Route::get('/signup', 'BlogController@signup');
+Route::get('/signin', 'BlogController@signin');
+Route::get('/pph', 'BlogController@pph');
+Route::get('/pbb', 'BlogController@pbb');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
