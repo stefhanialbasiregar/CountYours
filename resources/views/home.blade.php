@@ -31,7 +31,7 @@
         <header class="header_area">
             <nav class="navbar navbar-expand-lg menu_one menu_four">
                 <div class="container">
-                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logotax.png" srcset="img/logo2x-2.png 2x" alt="logo"><img src="img/logotax2.png" srcset="img/logo2x.png 2x" alt=""></a>
+                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logo.png" alt="logo" style="width:50px;"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu_toggle">
                             <span class="hamburger">
@@ -156,7 +156,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
-                                <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
+                                <a href="/home" class="f-logo"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
                                 <p class="mt_40">CountYours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
                                 <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
                                 </p>
