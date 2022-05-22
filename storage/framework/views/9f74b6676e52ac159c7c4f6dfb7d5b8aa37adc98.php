@@ -47,7 +47,10 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav menu w_menu ml-auto">
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
+                            <li class="nav-item dropdown submenu mega_menu mega_menu_two active">
+                                <a class="nav-link dropdown-toggle" href="/home" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
                             </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
@@ -55,37 +58,17 @@
                             </li>
                             </li>
                         </ul>
-                    </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/login">Login</a>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/register">Register</a>
+                        </div>
+                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/aboutus">About Us</a>
                 </div>
             </nav>
         </header>
-        <section class="payment_banner_area_two">
+        <section class="breadcrumb_area">
+            <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
             <div class="container">
-                <div class="payment_content_two text-center">
-                    <h2>The next generation <br>of <span>Tax Generator</span></h2>
-                    <div class="action_btn d-flex align-items-center justify-content-center">
-                        <a href="/register" class="slider_btn btn_hover"><i class="ti-plus"></i>Join Us</a>
-                        <a href="/register" class="video_btn">Silahkan Daftar & Login<br>untuk menggunakan tools Gratis dari kami</a>
-                    </div>
-                    <div class="payment_img">
-                        <img src="img/new/ch2.png" alt="">
-                        <div></div>
-                        <img class="payment_icon icon_one" src="img/new/01.png" alt="">
-                        <img class="payment_icon icon_two" src="img/new/02.png" alt="">
-                        <img class="payment_icon icon_three" src="img/new/03.png" alt="">
-                        <img class="payment_icon icon_four" src="img/new/04.png" alt="">
-                        <img class="payment_icon icon_five" src="img/new/05.png" alt="">
-                        <img class="payment_icon icon_six" src="img/new/06.png" alt="">
-                    </div>
-                </div>
-                <div class="symbols-pulse active">
-                    <div class="pulse-1"></div>
-                    <div class="pulse-2"></div>
-                    <div class="pulse-3"></div>
-                    <div class="pulse-4"></div>
-                    <div class="pulse-x"></div>
+                <div class="breadcrumb_content text-center">
+                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">About Us</h1>
+                    <p class="f_400 w_color f_size_16 l_height26">Ini adalah halaman About Us<br>Website Tax Generator</p>
                 </div>
             </div>
         </section>
@@ -128,37 +111,104 @@
                 </div>
             </div>
         </section>
-        <section class="payment_features_area_three bg_color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 d-flex align-items-center">
-                        <div class="payment_features_content_two">
-                            <h2 class="t_color">Tax Generator</h2>
-                            <p>Pengguna dapat menentukan besaran pajak yang harus ia bayarkan. Dalam laman aplikasi, pengguna memilih beberapa pilihan sebelum memasukan data yang mana sesuai dengan kondisi pengguna. Data yang diminta berupa data finansial pribadi yang tak akan digunakan untuk keperluan lain. Data akan diproses dengan perhitungan yang transparan dan akan menampilkan hasil berupa estimasi dana pajak yang harus ia bayarkan.</p>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon1.png" alt="">
-                                        <h3>Ayo registrasi</h3>
-                                        <p>Untuk dapat menggunakan tools gratis dari kami, pengguna diharuskan untuk mendaftar dan login terlebih dahulu</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon2.png" alt="">
-                                        <h3>Simple Setup</h3>
-                                        <p>Hanya dengan beberapa langkah kamu bisa menghitung pajak kamu dengan mudah</p>
-                                    </div>
-                                </div>
+        <section class="experts_team_area sec_pad">
+        <div class="container">
+            <div class="sec_title text-center mb_70">
+                <h2 class="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Tax Generator Expert Team</h2>
+                <p class="f_400 f_size_16">Website Tax Generator ini dibangun dengan penuh cinta<br> Oleh kami para web developer Informatika Unsyiah</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/faris.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Faris Izzatur Rahman</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Faris Izzatur Rahman</h3></a>
+                                <h5>Backend Developer</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <img class="img-fluid" src="img/new/ch6.png" alt="">
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/aad.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Hafad Furqani</h3></a>
+                            <h5>Database Management</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Hafad Furqani</h3></a>
+                                <h5>Database Management</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/kiky.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">M. Rizki Riswandi</h3></a>
+                            <h5>Frontend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">M. Rizki Riswandi</h3></a>
+                                <h5>Frontend Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/rico.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Rico Halim</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Rico Halim</h3></a>
+                                <h5>Backend Developer</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
         <section class="payment_priceing_area">
             <div class="container">
                 <div class="sec_title mb_70 wow fadeInUp text-center" data-wow-delay="0.4s">
@@ -249,4 +299,4 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
-</html>
+</html><?php /**PATH C:\xampp\htdocs\TaxGenerator-master\resources\views/aboutus.blade.php ENDPATH**/ ?>

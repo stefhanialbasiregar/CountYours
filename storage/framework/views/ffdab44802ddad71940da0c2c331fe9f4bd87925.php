@@ -249,4 +249,4 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
-</html>
+</html><?php /**PATH C:\xampp\htdocs\taxgenerator\resources\views/welcome.blade.php ENDPATH**/ ?>
