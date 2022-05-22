@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
 
 <head>
@@ -9,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>CountYours</title>
+    <title>Count Yours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -31,7 +30,7 @@
         <header class="header_area">
             <nav class="navbar navbar-expand-lg menu_one menu_four">
                 <div class="container">
-                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logo.png" alt="logo" style="width:50px;"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
+                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logotax.png" srcset="img/logo2x-2.png 2x" alt="logo"><img src="img/logotax2.png" srcset="img/logo2x.png 2x" alt=""></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu_toggle">
                             <span class="hamburger">
@@ -48,117 +47,98 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav menu w_menu ml-auto">
+                            <li class="nav-item dropdown submenu mega_menu mega_menu_two active">
+                                <a class="nav-link dropdown-toggle" href="/home" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
+                            </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
                             </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
                             </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Hi! <?php echo e(Auth::user()->name); ?>
+
+                                </a>
+                            </li>
                             </li>
                         </ul>
                     </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/login">Login</a>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/register">Register</a>
+                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><?php echo e(__('Logout')); ?></a>
+                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" style="display: none;">
+                        <?php echo csrf_field(); ?>
+                    </form>
                 </div>
             </nav>
         </header>
-        <section class="payment_banner_area_two">
+        <section class="breadcrumb_area">
+            <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
             <div class="container">
-                <div class="payment_content_two text-center">
-                    <h2>The next generation <br>of <span>CountYours</span></h2>
-                    <div class="action_btn d-flex align-items-center justify-content-center">
-                        <a href="/register" class="slider_btn btn_hover"><i class="ti-plus"></i>Join Us</a>
-                        <a href="/register" class="video_btn">Silahkan Daftar & Login<br>untuk menggunakan tools Gratis dari kami</a>
-                    </div>
-                    <div class="payment_img">
-                        <img src="img/new/ch2.png" alt="">
-                        <div></div>
-                        <img class="payment_icon icon_one" src="img/new/01.png" alt="">
-                        <img class="payment_icon icon_two" src="img/new/02.png" alt="">
-                        <img class="payment_icon icon_three" src="img/new/03.png" alt="">
-                        <img class="payment_icon icon_four" src="img/new/04.png" alt="">
-                        <img class="payment_icon icon_five" src="img/new/05.png" alt="">
-                        <img class="payment_icon icon_six" src="img/new/06.png" alt="">
-                    </div>
-                </div>
-                <div class="symbols-pulse active">
-                    <div class="pulse-1"></div>
-                    <div class="pulse-2"></div>
-                    <div class="pulse-3"></div>
-                    <div class="pulse-4"></div>
-                    <div class="pulse-x"></div>
+                <div class="breadcrumb_content text-center">
+                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Penghitung Pajak Bumi & Bangunan<br>Count Yours</h1>
                 </div>
             </div>
         </section>
         <section class="payment_features_two sec_pad">
             <div class="container">
-                <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">CountYours</h2>
-                    <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
-                    <img src="img/ch3.png">
+                <div class="sign_info">
+                    <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <h2 class="f_p f_size_30 l_height50 f_700 t_color">Isi Form Berikut</h2>
+                        <p class="f_400 f_size_18 l_height34">Form harus diisi dengan data yang valid dan sesuai</p>
+                    </div>
+                    <form action="#" class="login-form sign-in-form">
+                        <div class="form-group text_box">
+                            <label class="f_p text_c f_400">Nomor Objek Pajak</label>
+                            <input type="number" name="npwp" placeholder="Masukkan Nomor">
+                        </div>
+                        <div class="form-group text_box">
+                            <label for="status" class="f_p text_c f_400">Status Bangunan: </label>
+                            <select id="status" name="status">
+                                <option value="1">Perumahan</option>
+                                <option value="2">Perkantoran</option>
+                                <option value="3">Pabrik</option>
+                                <option value="4">Toko/Apotik/Ruko</option>
+                                <option value="5">Rumah Sakit/Klinik</option>
+                                <option value="6">Bengkel/Gudang</option>
+                                <option value="7">Hotel/Wisma/Restoran</option>
+                                <option value="8">Apartemen/Kondominium</option>
+                                <option value="9">Gedung Pemerintah</option>
+                                <option value="10">Lain Lain</option>
+                            </select>
+                        </div>
+                        <div class="form-group text_box">
+                            <label class="f_p text_c f_400">Luas Tanah</label>
+                            <input type="number" required="required" name="luasTanah" id="luasTanah" placeholder="Masukkan dalam besaran Meter Persegi">
+                        </div>
+                        <div class="form-group text_box">
+                            <label class="f_p text_c f_400">Harga Tanah</label>
+                            <input type="number" required="required" name="hargaTanah" id="hargaTanah" placeholder="Harga Dalam Juta/Meter Persegi">
+                        </div>
+                        <div class="form-group text_box">
+                            <label class="f_p text_c f_400">Luas Bangunan</label>
+                            <input type="number" required="required" name="luasBangunan" id="luasBangunan" placeholder="Masukkan dalam besaran Meter Persegi">
+                        </div>
+                        <div class="form-group text_box">
+                            <label class="f_p text_c f_400">Harga Bangunan</label>
+                            <input type="number" required="required" name="hargaBangunan" id="hargaBangunan" placeholder="Harga Dalam Juta/Meter Persegi">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <input type="button" class="btn_get btn_hover hidden-sm hidden-xs" value="Calculate" onclick="Calculate()" />
+                    </form>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon8.png" alt="">
-                            <h4>CountYours</h4>
-                            <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon7.png" alt="">
-                            <h4>Responsive</h4>
-                            <p>CountYours merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon1.png" alt="">
-                            <h4>User Friendly</h4>
-                            <p>Memiliki fitur yang sangat mudah untuk digunakan dan tidak membingungkan.<br><br><br><br></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="payment_features_item text-center">
-                            <img src="img/new/icon9.png" alt="">
-                            <h4>Modern Design</h4>
-                            <p>Tampilan website yang elegan akan membuat anda nyaman menggunakan layanan dari kami<br><br><br></p>
-                        </div>
-                    </div>
-                </div>
+                <br><br>
+                <p class="f_700">Nilai Jual Objek Pajak Anda Adalah : </p>
+                <p id="a1"></p>
+                <p class="f_700">Nilai Jual Kena Pajak Anda Adalah : </p>
+                <p id="a2"></p>
+                <p class="f_700">Nilai Pajak Bumi dan Bangunan Anda Adalah : </p>
+                <p id="a3"></p>
             </div>
         </section>
-        <section class="payment_features_area_three bg_color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 d-flex align-items-center">
-                        <div class="payment_features_content_two">
-                            <h2 class="t_color">CountYours</h2>
-                            <p>Pengguna dapat menentukan besaran pajak yang harus ia bayarkan. Dalam laman aplikasi, pengguna memilih beberapa pilihan sebelum memasukan data yang mana sesuai dengan kondisi pengguna. Data yang diminta berupa data finansial pribadi yang tak akan digunakan untuk keperluan lain. Data akan diproses dengan perhitungan yang transparan dan akan menampilkan hasil berupa estimasi dana pajak yang harus ia bayarkan.</p>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon1.png" alt="">
-                                        <h3>Ayo registrasi</h3>
-                                        <p>Untuk dapat menggunakan tools gratis dari kami, pengguna diharuskan untuk mendaftar dan login terlebih dahulu</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="item">
-                                        <img src="img/new/icon/icon2.png" alt="">
-                                        <h3>Simple Setup</h3>
-                                        <p>Hanya dengan beberapa langkah kamu bisa menghitung pajak kamu dengan mudah</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <img class="img-fluid" src="img/new/ch6.png" alt="">
-                    </div>
-                </div>
-            </div>
+
         </section>
         <section class="payment_priceing_area">
             <div class="container">
@@ -188,8 +168,8 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
-                                <a href="/home" class="f-logo"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
-                                <p class="mt_40">CountYours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
+                                <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
+                                <p class="mt_40">Count Yours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
                                 <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
                                 </p>
                             </div>
@@ -201,6 +181,7 @@
                                     <li><a href="/aboutus">About Us</a></li>
                                     <li><a href="/disclaimer">Disclaimer</a></li>
                                     <li><a href="/privacy">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -232,6 +213,28 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        function Calculate() {
+            var luasTanah = document.getElementById("luasTanah").value;
+            var luasBangunan = document.getElementById("luasBangunan").value;
+            var hargaTanah = document.getElementById("hargaTanah").value;
+            var hargaBangunan = document.getElementById("hargaBangunan").value;
+            var status = document.getElementById("status").value;
+            var njop = (luasTanah * hargaTanah) + (luasBangunan * hargaBangunan);
+            var njkp = njop * 0.2;
+            var pbb = njkp * 0.05;
+
+
+            document.getElementById("a1").innerHTML = numberWithCommas(njop);
+            document.getElementById("a2").innerHTML = numberWithCommas(njkp);
+            document.getElementById("a3").innerHTML = numberWithCommas(pbb);
+
+        }
+
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+    </script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/propper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -274,7 +277,6 @@
     </script>
 </body>
 
-
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
 
-</html><?php /**PATH C:\xampp\htdocs\CountYours\resources\views/welcome.blade.php ENDPATH**/ ?>
+</html><?php /**PATH C:\xampp\htdocs\CountYours\resources\views/pbb.blade.php ENDPATH**/ ?>

