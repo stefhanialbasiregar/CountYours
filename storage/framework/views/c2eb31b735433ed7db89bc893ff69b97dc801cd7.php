@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 
+
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:53:46 GMT -->
 <head>
     <!-- Required meta tags -->
@@ -51,24 +52,14 @@
                                     Home
                                 </a>
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/aboutus">About Us</a>
-                            </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/disclaimer">Disclaimer</a>
                             </li>
                             <li class="dropdown submenu nav-item"><a title="" class="dropdown-toggle nav-link"  role="button" aria-haspopup="true" aria-expanded="false" href="/privacy">Privacy Policy</a>
                             </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hi! {{ Auth::user()->name }}
-                                </a>
-                            </li>
                             </li>
                         </ul>
-                    </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
+                        </div>
+                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="/aboutus">About Us</a>
                 </div>
             </nav>
         </header>
@@ -76,56 +67,148 @@
             <img class="breadcrumb_shap" src="img/breadcrumb/banner_bg.png" alt="">
             <div class="container">
                 <div class="breadcrumb_content text-center">
-                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">Penghitung Pajak Penghasilan<br>Tax Generator</h1>
+                    <h1 class="f_p f_700 f_size_50 w_color l_height50 mb_20">About Us</h1>
+                    <p class="f_400 w_color f_size_16 l_height26">Ini adalah halaman About Us<br>Website Tax Generator</p>
                 </div>
             </div>
-		</section>
+        </section>
         <section class="payment_features_two sec_pad">
             <div class="container">
-                <div class="sign_info">
                 <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">Isi Form Berikut</h2>
-                    <p class="f_400 f_size_18 l_height34">Form harus diisi dengan data yang valid dan sesuai</p>
+                    <h2 class="f_p f_size_30 l_height50 f_700 t_color">TAX GENERATOR</h2>
+                    <p class="f_400 f_size_18 l_height34">Adalah sebuat tools gratis yang bisa kamu gunakan<br>untuk membantu kamu dalam hal memprediksi Jumlah Pajak Yang Harus kamu Bayarkan</p>
+                    <img src="img/ch3.png">
                 </div>
-                                <form action="#" class="login-form sign-in-form">
-                                    <div class="form-group text_box">
-                                        <label class="f_p text_c f_400">NPWP</label>
-                                        <input type="number" name="npwp" placeholder="Masukkan NPWP">
-                                    </div>
-                                    <div class="form-group text_box">
-                                        <label for="ptkp" class="f_p text_c f_400">Status Anda: </label>
-                                        		<select id="ptkp" name="ptkp">
-			<option value="1">Pribadi tidak kawin tanpa tanggungan</option>
-			<option value="2">Pribadi tidak kawin 1 tanggungan</option>
-			<option value="3">Pribadi tidak kawin 2 tanggungan</option>
-			<option value="4">Pribadi tidak kawin 3 tanggungan</option>
-			<option value="5">Kawin tanpa tanggungan </option>
-			<option value="6">Kawin 1 tanggungan</option>
-			<option value="7">Kawin 2 tanggungan</option>
-			<option value="8">Kawin 3 tanggungan</option>
-		</select>
-                                    </div>
-                                    <div class="form-group text_box">
-                                        <label class="f_p text_c f_400">Besar Penghasilan Perbulan</label>
-                                        <input type="number" placeholder="Masukkan angka tanpa menggunakan titik" required="required" name="penghasilan" id="penghasilan">
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                    <input type="button" class="btn_get btn_hover hidden-sm hidden-xs" value="Calculate" onclick="Calculate()" />
-                                </form>
-                            </div>
-                            <br><br>
-	<p class="f_700">Nilai  Penghasilan Tahunan Anda Adalah : </p>
-	<p id="a1"></p>
-	<p class="f_700">Nilai Pajak Penghasilan Tidak Kena Pajak Anda Adalah : </p>
-	<p id="a2"></p>
-	<p class="f_700">Nilai Pajak Penghasilan Kena Pajak Anda  Adalah : </p>
-	<p id="a3"></p>
-	<p class="f_700">Nilai Pajak Penghasilan Anda Pertahun Adalah : </p>
-	<p id="a4"></p>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="payment_features_item text-center">
+                            <img src="img/new/icon8.png" alt="">
+                            <h4>Tax Generator</h4>
+                            <p>Website kami mampu untuk membuat perkiraan jumlah pajak yang harus anda bayarkan berdasarkan data yang anda input.<br><br></p>
                         </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="payment_features_item text-center">
+                            <img src="img/new/icon7.png" alt="">
+                            <h4>Responsive</h4>
+                            <p>Tax Generator merupakan website yang bisa digunakan semua perangkat yang anda miliki, karena website ini sangat responsive.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="payment_features_item text-center">
+                            <img src="img/new/icon1.png" alt="">
+                            <h4>User Friendly</h4>
+                            <p>Memiliki fitur yang sangat mudah untuk digunakan dan tidak membingungkan.<br><br><br><br></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="payment_features_item text-center">
+                            <img src="img/new/icon9.png" alt="">
+                            <h4>Modern Design</h4>
+                            <p>Tampilan website yang elegan akan membuat anda nyaman menggunakan layanan dari kami<br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
-</section>
+        <section class="experts_team_area sec_pad">
+        <div class="container">
+            <div class="sec_title text-center mb_70">
+                <h2 class="f_p f_size_30 l_height30 f_700 t_color3 mb_20">Tax Generator Expert Team</h2>
+                <p class="f_400 f_size_16">Website Tax Generator ini dibangun dengan penuh cinta<br> Oleh kami para web developer Informatika Unsyiah</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/faris.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Faris Izzatur Rahman</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Faris Izzatur Rahman</h3></a>
+                                <h5>Backend Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/aad.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Hafad Furqani</h3></a>
+                            <h5>Database Management</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Hafad Furqani</h3></a>
+                                <h5>Database Management</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/kiky.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">M. Rizki Riswandi</h3></a>
+                            <h5>Frontend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">M. Rizki Riswandi</h3></a>
+                                <h5>Frontend Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="ex_team_item">
+                        <img src="img/rico.png" alt="">
+                        <div class="team_content">
+                            <a href="#"><h3 class="f_p f_size_16 f_600 t_color3">Rico Halim</h3></a>
+                            <h5>Backend Developer</h5>
+                        </div>
+                        <div class="hover_content">
+                            <div class="n_hover_content">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <div class="br"></div>
+                                <a href="#"><h3 class="f_p f_size_16 f_600 w_color">Rico Halim</h3></a>
+                                <h5>Backend Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <section class="payment_priceing_area">
             <div class="container">
                 <div class="sec_title mb_70 wow fadeInUp text-center" data-wow-delay="0.4s">
@@ -165,7 +248,6 @@
                                     <li><a href="/aboutus">About Us</a></li>
                                     <li><a href="/disclaimer">Disclaimer</a></li>
                                     <li><a href="/privacy">Privacy Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -199,68 +281,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    	<script> 
-		function Calculate() {
-			var penghasilan =  document.getElementById("penghasilan").value*12 ; 	
-			if(penghasilan < 54000000){
-				document.getElementById("a1").innerHTML = "Anda Bukan Wajib Pajak";
-				return;
-			}
-			document.getElementById("a1").innerHTML = numberWithCommas(penghasilan);
-			var ptkp = document.getElementById("ptkp").value; 	
-			var pajak = 0;
-
-				if(ptkp == 1){
-					pajak = 54000000;
-				}
-				else if(ptkp==2){
-					pajak= 58500000;
-				}
-				else if(ptkp==3){
-					pajak= 63000000;
-				}
-				else if(ptkp==4){
-					pajak= 67500000;
-				}
-				else if(ptkp==5){
-					pajak=58500000;
-				}
-				else if(ptkp==6){
-					pajak=63000000;
-				}
-				else if(ptkp==7){
-					pajak=67500000;
-				}	
-				else if(ptkp==8){
-					pajak=72000000;
-				}	
-				document.getElementById("a2").innerHTML = numberWithCommas(pajak);
-				var pkp = penghasilan - pajak;
-				document.getElementById("a3").innerHTML = numberWithCommas(pkp);
-			
-			
-			var final = 0;
-			if(pkp <50000000){
-				final = pkp*0.05;
-			}
-			else if(pkp > 50000000 && pkp < 250000000){
-				final = pkp*0.15;
-			}
-			else if(pkp > 250000000 && pkp < 500000000){
-				final = pkp*0.25;
-			}
-			else if(pkp > 500000000){
-				final = pkp*0.3;
-			}
-			
-			document.getElementById("a4").innerHTML = numberWithCommas(final);
-			
-		}
-
-		function numberWithCommas(x) {
-			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-		}
-    </script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/propper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -279,4 +299,4 @@
 
 
 <!-- Mirrored from droitthemes.com/html/saasland/saasland-rtl/home-payment-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2019 06:54:12 GMT -->
-</html>
+</html><?php /**PATH C:\xampp\htdocs\count_yours2\resources\views/aboutus.blade.php ENDPATH**/ ?>
